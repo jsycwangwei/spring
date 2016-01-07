@@ -1,8 +1,1 @@
-/**
- * 
- */
-/**
- * @author wangwei-ww
- *
- */
 package org.wangwei.event.hello;

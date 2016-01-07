@@ -1,7 +1,6 @@
 /**
- * Copyright (c) 2005-2012 https://github.com/zhangkaitao
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
+ * Copyright (c) 2005-2012 https://github.com/zhangkaitao Licensed under the Apache License, Version 2.0 (the
+ * "License");
  */
 package org.wangwei.event.register;
 
@@ -9,11 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 
-/**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-8 下午9:34
- * <p>Version: 1.0
- */
 @Service
 public class RegisterService {
 
@@ -28,6 +22,5 @@ public class RegisterService {
     private void publishRegisterEvent(User user) {
         applicationContext.publishEvent(new RegisterEvent(user));
     }
-
 
 }
